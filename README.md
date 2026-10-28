@@ -35,7 +35,7 @@ import pandas as pd
 df = pd.read_csv(r"C:\Users\admin\Downloads\exp_2_dataset_student_scores.csv")
 print("First 5 rows:\n", df.head(), "\n")
 print("Last 5 rows:\n", df.tail(), "\n")
-print("Developed by Deetchana S")
+print("Developed by Ritesh DP")
 
 X = df.iloc[:, :-1].values   
 Y = df.iloc[:, -1].values    
